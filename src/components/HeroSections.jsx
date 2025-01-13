@@ -55,10 +55,10 @@ export default function HeroSections() {
           <div className="flex gap-3 item-center">
             <button className="px-4 lg:px-6 py-3 bg-gradient-to-r from-sky-600 to-cyan-400 text-white rounded-full font-medium transition-all duration-500 hover:from-sky-700 hover:to-cyan-500  hover:shadow-xl">
               <a
-                href="https://drive.google.com/file/d/1s01vDhPvtdHanwcFDP9N7gRlqRoWNZlc/view?usp=sharing"
+                href="https://drive.google.com/file/d/1NiVn10AQ28_hb4yzMp__fiwt6GxY93d5/view?usp=sharing"
                 target="_blank"
               >
-                Download CV
+                View CV
               </a>
             </button>
 
