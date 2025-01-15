@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="fixed top-0 w-full z-20">
+      <nav className="fixed top-0 z-20 h-screen w-screen">
         <div className="relative z-20 bg-transparent backdrop-blur-2xl">
           <div className="px-6 lg:container md:px-12 lg:mx-auto lg:px-6 lg:py-4">
             <div className="flex items-center justify-between">

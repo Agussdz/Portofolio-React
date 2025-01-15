@@ -21,7 +21,7 @@ export default function Footer() {
 
   const contactInfo = [
     { icon: Phone, text: "081242762991" },
-    { icon: Mail, text: "agussutiyanto07@gmail.com" },
+    { icon: Mail, text: "agussutiyanto3107@gmail.com" },
   ];
 
   return (

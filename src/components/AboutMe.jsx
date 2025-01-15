@@ -68,7 +68,7 @@ export default function AboutMe() {
                   <Mail className="w-5 h-5 text-cyan-400" />
                   <span className="text-gray-300 w-16">Email</span>
                   <span>:</span>
-                  <span>agussutiyanto07@gmail.com</span>
+                  <span>agussutiyanto3107@gmail.com</span>
                 </div>
               </div>
 

@@ -91,7 +91,7 @@ export default function Skills() {
             <span className="text-cyan-400">My Recent</span> Skills
           </h1>
         </div>
-        <div className="absolute -top-300 left-72 lg:left-96 w-96 h-96 bg-cyan-500/20 rounded-full blur-[70px]" />
+        <div className="absolute -top-300 -left-10 lg:left-96 w-96 h-96 bg-cyan-500/20 rounded-full blur-[70px]" />
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {skills.map((skill, index) => (
             <div
