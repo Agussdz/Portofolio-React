@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="fixed top-0 z-20 h-screen w-screen">
+      <nav className="fixed top-0 z-20 w-screen">
         <div className="relative z-20 bg-transparent backdrop-blur-2xl">
           <div className="px-6 lg:container md:px-12 lg:mx-auto lg:px-6 lg:py-4">
             <div className="flex items-center justify-between">
@@ -45,7 +45,7 @@ export default function Navbar() {
 
                 <div className="fixed inset-0 w-[calc(100%-4.5rem)] translate-x-[-100%] transition duration-300 peer-checked:translate-x-0 lg:static lg:w-auto lg:translate-x-0">
                   <div className="flex h-full flex-col justify-between lg:flex-row lg:items-center">
-                    <ul className="space-y-8 px-6 pt-32 text-white md:px-12 lg:flex lg:space-x-12 lg:space-y-0 lg:pt-0">
+                    <ul className="space-y-8 px-6 pt-20 text-white md:px-12 lg:flex lg:space-x-12 lg:space-y-0 lg:pt-0">
                       <li>
                         <a
                           href="#home"
