@@ -10,6 +10,12 @@ export default function Skills() {
         "I have basic React skills in website development, understanding the use of event handling, React hooks, API integration, etc",
     },
     {
+      name: "Laravel",
+      image: "https://download.logo.wine/logo/Laravel/Laravel-Logo.wine.png",
+      description:
+        "I have basic Laravel skills in website development, including understanding MVC architecture, routing, database migrations, and basic CRUD with filament",
+    },
+    {
       name: "Supabase",
       image:
         "https://cdn.prod.website-files.com/655b60964be1a1b36c746790/655b60964be1a1b36c746d41_646dfce3b9c4849f6e401bff_supabase-logo-icon_1.png",
