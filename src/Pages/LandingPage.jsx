@@ -14,7 +14,6 @@ export default function LandingPage() {
         <div className="absolute lg:-top-100 -left-10 lg:-left-20 w-96 h-96 bg-cyan-500/20 rounded-full blur-[130px]" />
         {/* <div className="absolute lg:-bottom-40 lg:-right-10 w-64 h-64 bg-cyan-400/20 rounded-full blur-3xl" /> */}
 
-        {/* Give each section an id to target */}
         <div className="">
           <div id="home">
             <HeroSections />

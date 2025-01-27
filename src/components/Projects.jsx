@@ -8,9 +8,14 @@ import gotham from "../assets/gotham.webp";
 import finzo from "../assets/finzo.webp";
 import pildek from "../assets/pildek.webp";
 import mental from "../assets/poster-mental.jpg";
+import aredu from "../assets/Aredu.jpg";
+import member from "../assets/Member.jpg";
+import kartini from "../assets/Kartini.jpg";
+import banner from "../assets/banner.jpg";
+import standbanner from "../assets/standbanner.jpg";
 
 export default function Projects() {
-  const [activeCategory, setActiveCategory] = useState("website");
+  const [activeCategory, setActiveCategory] = useState("all");
 
   const websiteProjects = [
     {
@@ -35,6 +40,13 @@ export default function Projects() {
       description:
         "DSS Course Project: Developing a Credit Approval Decision Support System Using KNN and Python Flask",
       technology: "Flask, Python, KNN, HTML, CSS, Bootstrap, Python, etc.",
+    },
+    {
+      image: aredu,
+      title: "Augmented Reality Course Landing Page",
+      description:
+        "Developing a landing page for Augmented Reality course using React Js And Tailwind CSS",
+      technology: "React, Tawilwind, Vite, React Router, HTML",
     },
   ];
 
@@ -61,6 +73,7 @@ export default function Projects() {
       technology: "Figma",
     },
   ];
+
   const graphicDesign = [
     {
       image: finzo,
@@ -83,14 +96,48 @@ export default function Projects() {
         "Poster Digital untuk perlombaan CSS 2024 dengan tema mental health",
       technology: "Canva",
     },
+    {
+      image: member,
+      title: "Get To Know Our Member (Screenshot) Instagram Post Design",
+      description:
+        "Social media post design for introducing the member of Screenshot and its division",
+      technology: "Canva",
+    },
+    {
+      image: kartini,
+      title:
+        "Instagram Post Design for Celebrating Eid al-Fitr and Kartini Day",
+      description:
+        "Social media post design for Eid al-Fitr and Kartini Day using Canva",
+      technology: "Canva",
+    },
+    {
+      image: banner,
+      title: "Banner Design for Warung Bakso Mbak Anisa",
+      description:
+        "Designing a banner to display the menu of Warung Bakso Mbak Anisa",
+      technology: "Canva",
+    },
+    {
+      image: standbanner,
+      title: "Stand Banner Design for Open Recruitment Screenshot",
+      description:
+        "Designing stand banner for Open Recruitment Screenshot and explain each division",
+      technology: "Canva",
+    },
   ];
+
+  // Combine all projects into a single array
+  const allProjects = [...websiteProjects, ...uxProjects, ...graphicDesign];
 
   const projectsToDisplay =
     activeCategory === "website"
       ? websiteProjects
       : activeCategory === "ux"
       ? uxProjects
-      : graphicDesign;
+      : activeCategory === "design"
+      ? graphicDesign
+      : allProjects; // Default to show all projects
 
   return (
     <div>
@@ -107,6 +154,16 @@ export default function Projects() {
 
             {/* Buttons for toggling between categories */}
             <div className="mb-6 space-x-4 mt-10">
+              <button
+                className={`px-6 py-2 rounded-full hover:bg-cyan-400 text-cyan-400 hover:text-white ${
+                  activeCategory === "all"
+                    ? "bg-cyan-400 text-white"
+                    : "bg-transparent border border-cyan-400"
+                }`}
+                onClick={() => setActiveCategory("all")}
+              >
+                All
+              </button>
               <button
                 className={`px-6 py-2  rounded-full hover:bg-cyan-400 text-cyan-400 hover:text-white ${
                   activeCategory === "website"
