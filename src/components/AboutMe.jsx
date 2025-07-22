@@ -36,7 +36,7 @@ export default function AboutMe() {
                 </h2>
                 <h1 className="text-4xl font-bold mb-4">About Me</h1>
                 <p className="text-gray-300">
-                  I am an active 6th-semester student of Information Systems at
+                  I am an active 7th-semester student of Information Systems at
                   Universitas Negeri Semarang with an interest in web
                   development as a full-stack web developer. I possess skills in
                   React JS, Tailwind, Supabase, Javascript, HTML, CSS,
