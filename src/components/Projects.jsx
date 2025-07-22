@@ -13,11 +13,19 @@ import member from "../assets/Member.jpg";
 import kartini from "../assets/Kartini.jpg";
 import banner from "../assets/banner.jpg";
 import standbanner from "../assets/standbanner.jpg";
+import studyfirst from "../assets/Studyfirst.png";
 
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const websiteProjects = [
+    {
+      image: studyfirst,
+      title: "StudyFirst Platform Revamp",
+      description:
+        "Redesigning and developing the StudyFirst learning platform during internship. Responsible for creating UI/UX wireframes, implementing responsive design, and improving user flows.",
+      technology: "Figma, React, Tailwind CSS, PHP, Github, Supabase",
+    },
     {
       image: capstone,
       title: "Agreenery : Agriculture Website",
@@ -26,6 +34,7 @@ export default function Projects() {
       technology:
         "React, Vite, Tailwind, Zustand, JWT Decode, Lucide-react, Javascript, Gemini API, Sweetalert, Flowbite",
     },
+
     {
       image: greenhero,
       title: "GreenHero : Green Website",
@@ -141,7 +150,7 @@ export default function Projects() {
 
   return (
     <div>
-      <div className="text-white p-4">
+      <div id="projects" className="text-white p-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <div className="inline-block bg-cyan-500 text-sm font-semibold py-1 px-3 rounded-full mb-4">

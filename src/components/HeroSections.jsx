@@ -24,8 +24,10 @@ export default function HeroSections() {
           </div>
 
           <p className="text-gray-400 max-w-lg">
-            I am interested in website development and have skills in UI/UX and
-            graphic design
+            Passionate about crafting intuitive and visually engaging digital
+            experiences. I specialize in UI/UX design and front-end web
+            development, with a strong foundation in graphic design and
+            user-centered thinking.
           </p>
 
           {/* Social Links */}
@@ -55,7 +57,7 @@ export default function HeroSections() {
           <div className="flex gap-3 item-center">
             <button className="px-4 lg:px-6 py-3 bg-gradient-to-r from-sky-600 to-cyan-400 text-white rounded-full font-medium transition-all duration-500 hover:from-sky-700 hover:to-cyan-500  hover:shadow-xl">
               <a
-                href="https://drive.google.com/file/d/1y-0LVygETxKhimwdATh5pfkpDFY_pNfw/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_9v4Nwwpnt87SERBFy2oeekbER4QBawo/view?usp=sharing"
                 target="_blank"
               >
                 View CV

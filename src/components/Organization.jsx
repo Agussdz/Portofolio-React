@@ -15,10 +15,54 @@ export default function Organization() {
               <span className="text-cyan-400"> Experiences</span>
             </h1>
           </div>
-          {/* Skills 2 */}
+          {/* Study First Experience */}
           <div className="bg-gradient-to-r from-white/10 to-cyan-600/20 backdrop-blur-2xl rounded-lg p-6 mt-4 ">
-            <div className="mb-4 flex items-center  ">
-              <div className="">
+            <div className="mb-4 flex items-center">
+              <div>
+                <h2 className="text-3xl font-bold mb-3 mt-4 text-cyan-400">
+                  Study First
+                </h2>
+                <h2 className="text-xl font-bold mb-3 mt-4">
+                  UI/UX & Web Developer Intern
+                </h2>
+                <h3 className="font-semibold text-lg text-cyan-400 mb-2">
+                  Internship (Feb 2025 – May 2025)
+                </h3>
+                <p className="text-gray-100">
+                  I worked as a UI/UX & Web Developer Intern where I was
+                  responsible for optimizing user experience and website
+                  performance.
+                </p>
+                <ul className="list-disc pl-5 text-gray-300">
+                  <li>
+                    Improved UI/UX design for company website to ensure
+                    responsiveness across devices.
+                  </li>
+                  <li>
+                    Applied image optimization, CDN integration, and SEO
+                    techniques to improve performance and Google indexing.
+                  </li>
+                  <li>
+                    Successfully increased website traffic from 3.2K to 25K+
+                    visitors.
+                  </li>
+                  <li>
+                    Built an online exam simulation system with WordPress and
+                    automated scoring system.
+                  </li>
+                  <li>
+                    Designed and developed a dynamic scholarship calendar using
+                    React, Tailwind CSS, and Supabase.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Alterra Experience */}
+          <div className="bg-gradient-to-r from-white/10 to-cyan-600/20 backdrop-blur-2xl rounded-lg p-6 mt-4 ">
+            <div className="mb-4 flex items-center">
+              <div>
                 <h2 className="text-3xl font-bold mb-3 mt-4 text-cyan-400">
                   Alterra Academy
                 </h2>
@@ -28,7 +72,7 @@ export default function Organization() {
                 <h3 className="font-semibold text-lg text-cyan-400 mb-2">
                   Head of Front End Division Capstone Project
                 </h3>
-                <p className="text-gray-100 ">
+                <p className="text-gray-100">
                   I am responsible as the head of the Front End division and
                   here is what I have done.
                 </p>
@@ -51,7 +95,7 @@ export default function Organization() {
                     predetermined key activities and MVP standards.
                   </li>
                 </ul>
-                <button className="mt-8 px-4 lg:px-6 py-3 bg-gradient-to-r from-sky-600 to-cyan-400 text-white rounded-full font-medium transition-all duration-500 hover:from-sky-700 hover:to-cyan-500  hover:shadow-xl">
+                <button className="mt-8 px-4 lg:px-6 py-3 bg-gradient-to-r from-sky-600 to-cyan-400 text-white rounded-full font-medium transition-all duration-500 hover:from-sky-700 hover:to-cyan-500 hover:shadow-xl">
                   <a
                     href="https://drive.google.com/file/d/19pTZNXkfKOY2m9_4R-Lnt6vlfjvHVGzH/view?usp=sharing"
                     target="_blank"
@@ -62,10 +106,11 @@ export default function Organization() {
               </div>
             </div>
           </div>
-          {/* Skills 1 */}
+
+          {/* Organization Experience */}
           <div className="bg-gradient-to-r from-white/10 to-cyan-600/20 backdrop-blur-2xl rounded-lg p-6 mt-4">
-            <div className="mb-4 flex items-center  ">
-              <div className="">
+            <div className="mb-4 flex items-center">
+              <div>
                 <h2 className="text-3xl font-bold mb-3 mt-4 text-cyan-400">
                   Organization
                 </h2>
@@ -75,10 +120,10 @@ export default function Organization() {
                 <h3 className="font-semibold text-lg text-cyan-400 mb-2">
                   Head of Graphic Design Division
                 </h3>
-                <p className="text-gray-100 ">
+                <p className="text-gray-100">
                   I am responsible as the head of the design division
                 </p>
-                <ul class="list-disc pl-5 text-gray-300">
+                <ul className="list-disc pl-5 text-gray-300">
                   <li>
                     Implementing regular design exercises using Figma and Canva
                     to develop UI/UX design skills, posters, and social media

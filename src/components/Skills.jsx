@@ -5,7 +5,7 @@ export default function Skills() {
     {
       name: "React Js",
       image:
-        "https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png",
+        "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
       description:
         "I have basic React skills in website development, understanding the use of event handling, React hooks, API integration, etc",
     },
@@ -25,7 +25,7 @@ export default function Skills() {
     {
       name: "Tailwind",
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png",
+        "https://www.techuz.com/static/e33ed070a6f3885cfe9444f6baf97500/6172c/Tailwind-logo.webp",
       description:
         "I use Tailwind CSS for creating responsive layouts and designing websites with a clean, user-focused interface",
     },
@@ -59,21 +59,21 @@ export default function Skills() {
     {
       name: "Bootstrap",
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png",
+        "https://images.seeklogo.com/logo-png/38/2/bootstrap-5-logo-png_seeklogo-386607.png",
       description:
         "I have a strong foundation in JavaScript and have used it in several web development projects.",
     },
     {
       name: "Figma",
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Figma-logo.svg/1667px-Figma-logo.svg.png",
+        "https://static.vecteezy.com/system/resources/previews/032/050/116/non_2x/figma-3d-icon-free-png.png",
       description:
         " I have understanding of using Bootstrap as a framework to efficiently build websites",
     },
     {
       name: "Photoshop",
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/1051px-Adobe_Photoshop_CC_icon.svg.png",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgKhYDmfzYleXHL1F7Adbrw_230gMnrdycpA&s",
       description:
         "I have design skills in Photoshop, such as creating mockups and performing image manipulation",
     },
